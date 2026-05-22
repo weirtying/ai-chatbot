@@ -1,6 +1,6 @@
 import requests
 response= requests.post("https://api.deepseek.com/v1/chat/completions",     #调用deepseek模型的api
-                        headers={"Authorization": "Bearer sk-7d20a47341d24f7d96bb0e2db807cd29"},    #输入你的api密钥
+                        headers={"Authorization": "Bearer sk-*******************"},    #输入你的api密钥
                         json={ "model": "deepseek-v4-pro",      #选择模型
                                "messages": [{"role": "user", "content": "你好"}]      #输入你的话
                              }
